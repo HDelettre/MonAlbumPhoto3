@@ -8,7 +8,7 @@ router.post("/login", usersCtrl.loginUser);
 router.patch("/:userId",multer, usersCtrl.updateUser);
 router.delete("/:userId", usersCtrl.deleteUser);
 // ??????
-router.get("/", usersCtrl.getAllUsers);
-router.get("/:userId", usersCtrl.getOneUser);
+// router.get("/", usersCtrl.getAllUsers);
+// router.get("/:userId", usersCtrl.getOneUser);
 // EXPORTS
 module.exports = router;
