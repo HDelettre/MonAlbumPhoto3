@@ -1,0 +1,38 @@
+const PICTURES = require("../models/picturesModel");
+//
+exports.addNewPicture = async (req, res) => {
+  // CHECK IF USER EXIST AND IS CONNECTED
+  // CHECK IF ALBUM EXIST
+  // CHECK IF REQUEST DATA ARE CORRECT
+  // CREATE AND SAVE PICTURE
+}
+
+exports.getAllPictures = async (req, res) => {
+  // NOTE : GET ALL PICTURES FROM ONE ALBUM
+  // CHECK IF ALBUM EXIST
+  // CHECK IF PICTURES EXIST
+  // RETURN PICTURES DATA
+}
+
+exports.getOnePicture = async (req, res) => {
+  // NOTE : FOR WHICH UTILISATION ?
+  // CHECK IF ALBUM EXIST
+  // CHECK IF PICTURE EXIST
+  // RETURN PICTURE DATA
+}
+
+exports.updatePicture = async (req, res) => {
+  // CHECK IF USER EXIST AND IS CONNECTED
+  // CHECK IF ALBUM EXIST
+  // CHECK IF PICTURE EXIST
+  // CHECK IF USER IS AUTHORIZED TO UPDATE THIS ALBUM
+  // IF PICTURE FILE IS UPDATED, DELETE PREVIOUS PICTURE
+}
+
+exports.deletePicture = async (req, res) => {
+  // CHECK IF USER EXIST AND IS CONNECTED
+  // CHECK IF ALBUM EXIST
+  // CHECK IF PICTURE EXIST
+  // CHECK IF USER IS AUTHORIZED TO DELETE THIS ALBUM
+  // DELETE PICTURE
+}
